@@ -8,11 +8,6 @@ connectDB()
 
 const app = express();
 
-const livros = [
-  { id: 1, "titulo": "senhor dos anéis" },
-  { id: 2, "titulo": "toinha tonhao" }
-]
-
 app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
